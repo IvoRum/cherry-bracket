@@ -1,5 +1,7 @@
 package com.cherry.server.domain.model;
 
-public class Tournament {
+import java.util.List;
 
+public class Tournament {
+    private List<TournamentPlayer> players;
 }
