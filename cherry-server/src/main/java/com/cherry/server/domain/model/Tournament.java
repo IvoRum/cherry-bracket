@@ -4,4 +4,5 @@ import java.util.List;
 
 public class Tournament {
     private List<TournamentPlayer> players;
+    private TournamentType type;
 }
