@@ -1,8 +1,6 @@
 package com.cherry.server.infrastructure.adapter.output.persistence.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,8 +8,10 @@ import lombok.Setter;
 @Getter
 @Entity
 @Table(name = "Tournament")
-class TournamentEntity {
+public class TournamentEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    public TournamentEntity() {}
 }
