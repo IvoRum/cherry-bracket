@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"36caaa58f2d97ea1","type":"file","file":"Tournaments.md","x":-300,"y":-600,"width":460,"height":400},
+		{"id":"a87f3cfd3425c5f3","type":"file","file":"Team.md","x":-920,"y":-960,"width":400,"height":400},
+		{"id":"d05cd63df643a897","type":"file","file":"Player.md","x":-840,"y":-240,"width":400,"height":400},
+		{"id":"6ded7e64b063f73e","type":"file","file":"Recourses/Pasted image 20250528003029.png","x":-300,"y":-160,"width":833,"height":424},
+		{"id":"782c15b0ff594c50","type":"file","file":"Structure.md","x":270,"y":-829,"width":400,"height":400},
+		{"id":"d58508418bad8441","type":"file","file":"CherryUser.md","x":-1380,"y":-220,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"011b005f7d89d47c","fromNode":"d58508418bad8441","fromSide":"right","toNode":"d05cd63df643a897","toSide":"left","label":"Is a"},
+		{"id":"892385ac6bf9704a","fromNode":"36caaa58f2d97ea1","fromSide":"left","toNode":"d05cd63df643a897","toSide":"right","label":"Has a lot of "},
+		{"id":"4ac236b6c91eca8a","fromNode":"36caaa58f2d97ea1","fromSide":"left","toNode":"a87f3cfd3425c5f3","toSide":"right","label":"Can have many"},
+		{"id":"9fe401257b6b7249","fromNode":"d05cd63df643a897","fromSide":"top","toNode":"a87f3cfd3425c5f3","toSide":"bottom","label":"Can be part of a "},
+		{"id":"1926d80a831a1ebe","fromNode":"36caaa58f2d97ea1","fromSide":"right","toNode":"782c15b0ff594c50","toSide":"left"}
+	]
+}

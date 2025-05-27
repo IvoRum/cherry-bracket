@@ -1,0 +1,1 @@
+This is how the teams will face one another 
