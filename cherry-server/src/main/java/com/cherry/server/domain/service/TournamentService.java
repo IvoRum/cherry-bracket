@@ -7,9 +7,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
 public class TournamentService implements CreateTournamentCase {
     private final TournamentOutputPort tournamentOutputPort;
+
+    public TournamentService(TournamentOutputPort tournamentOutputPort) {
+        this.tournamentOutputPort = tournamentOutputPort;
+    }
 
     @Override
     public Tournament createPrivate(Tournament tournament) {

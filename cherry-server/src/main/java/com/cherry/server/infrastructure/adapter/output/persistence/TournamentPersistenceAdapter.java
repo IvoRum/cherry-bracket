@@ -9,9 +9,12 @@ import org.springframework.stereotype.Component;
 import java.util.Optional;
 
 @Component
-@RequiredArgsConstructor
 public class TournamentPersistenceAdapter implements TournamentOutputPort {
     private final TournamentRepository tournamentRepository;
+
+    public TournamentPersistenceAdapter(TournamentRepository tournamentRepository) {
+        this.tournamentRepository = tournamentRepository;
+    }
 
     @Override
     public Tournament save(Tournament tournament) {
